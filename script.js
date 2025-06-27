@@ -1,5 +1,6 @@
 // Constants for API endpoints
 const API_URL = 'https://api.tvmaze.com/shows';
+
 const watchlistUrl = 'http://localhost:3000/watchlist';
 
 // Global movie storage
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showMovies(filtered);
   });
 
+
   // Filter movies by genre
   document.getElementById('genre-filter').addEventListener('change', () => {
     const genre = document.getElementById('genre-filter').value;
@@ -32,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
       : allMovies.filter(m => m.genres.includes(genre));
     showMovies(filtered);
   });
+
 
   // Theme toggle button
   const toggleBtn = document.getElementById('theme-toggle');
@@ -50,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
   });
 });
+
 
 // Create genre filter options
 function setGenres(movies) {
