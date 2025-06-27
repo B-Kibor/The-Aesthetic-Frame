@@ -6,6 +6,7 @@ body {
   background: #f4f4f4;
   color: #333;
 }
+
 header {
   background: #222;
   color: white;
@@ -14,14 +15,17 @@ header {
   align-items: center;
   gap: 1rem;
 }
+
 #search, #genre-filter {
   padding: 0.5rem;
 }
+
 main {
   display: flex;
   gap: 1rem;
   padding: 1rem;
 }
+
 /* Movie Card Styles */
 .movie-card {
   background: white;
@@ -29,17 +33,20 @@ main {
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
+
 .movie-card img {
   width: 100%;
   height: auto;
   border-radius: 5px;
 }
+
 aside {
   flex: 1;
   background: #fff;
   padding: 1rem;
   border-radius: 8px;
 }
+
 /* Movie list container */
 #watchlist {
   display: flex;
@@ -49,6 +56,7 @@ aside {
   margin: 0;
   list-style: none;
 }
+
 /* Watchlist section styles */
 #watchlist li {
   background: #fff;
@@ -80,6 +88,7 @@ aside {
 #watchlist li button:hover {
   background: #333;
 }
+
 /* Navigation styles */
 nav {
   background: #222;
@@ -87,6 +96,7 @@ nav {
   padding: 0.5em 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -95,6 +105,7 @@ nav {
   margin: 0 auto;
   padding: 0 16px;
 }
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -102,15 +113,18 @@ nav {
   margin: 0;
   padding: 0;
 }
+
 .nav-links li a {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
+
 .nav-links li a:hover {
   color: #0a0a0c;
 }
+
 /* Genre styles */
 .genre-heading {
   border-bottom: 2px solid #000000;
@@ -119,6 +133,7 @@ nav {
   font-weight: 600;
   color: hsl(0, 0%, 0%);
 }
+
 /* Dark-mode styles */
 .dark-mode {
   background-color: #121212;
@@ -152,6 +167,7 @@ nav {
   padding: 1rem;
   border-radius: 8px;
 }
+
 /* Landing Section */
 .landing {
   background-image: url('https://images.unsplash.com/photo-1637074086158-9eb470d5fac9?auto=format&fit=crop&w=1920&q=80'); 
@@ -167,19 +183,23 @@ nav {
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
   padding: 2rem;
 }
+
 .landing h1 {
   font-size: 2.5em;
   margin-bottom: 0.5em;
 }
+
 .landing p {
   font-size: 1.2em;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
 }
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -187,17 +207,20 @@ nav {
   padding: 0;
   margin: 0;
 }
+
 .navbar-title {
   color: #fff;
   margin: 20px;
   font-weight: lighter;
   display: flex;
 }
+
 /* Logo text style */
 .logo {
   font-weight: bold;
   font-size: 1.3em;
 }
+
 /* Footer styles */
 footer {
   background: #222;
