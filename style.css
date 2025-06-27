@@ -230,3 +230,21 @@ footer {
   margin-top: 40px;
   font-size: 1em;
 }
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+

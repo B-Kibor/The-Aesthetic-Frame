@@ -1,10 +1,9 @@
 // Constants for API endpoints
 const API_URL = 'https://api.tvmaze.com/shows';
-
 const watchlistUrl = 'http://localhost:3000/watchlist';
 
 // Global movie storage
-let allMovies = []; 
+let allMovies = [];
 
 // When page loads
 document.addEventListener('DOMContentLoaded', () => {
@@ -25,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
     showMovies(filtered);
   });
 
-
   // Filter movies by genre
   document.getElementById('genre-filter').addEventListener('change', () => {
     const genre = document.getElementById('genre-filter').value;
@@ -34,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
       : allMovies.filter(m => m.genres.includes(genre));
     showMovies(filtered);
   });
-
 
   // Theme toggle button
   const toggleBtn = document.getElementById('theme-toggle');
@@ -54,7 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
 // Create genre filter options
 function setGenres(movies) {
   const select = document.getElementById('genre-filter');
@@ -67,7 +63,6 @@ function setGenres(movies) {
     select.appendChild(option);
   });
 }
-
 
 // Display movies grouped by genre or filtered
 function showMovies(movies) {
@@ -84,11 +79,9 @@ function showMovies(movies) {
     return m.rating && m.rating.average >= 8;
   });
 
-  // Render both sections
   renderSection('Trending', trending, container);
   renderSection('Popular', popular, container);
 }
-
 
 function renderSection(title, movies, container) {
   const section = document.createElement('div');
@@ -117,7 +110,6 @@ function renderSection(title, movies, container) {
 
   container.appendChild(section);
 }
-
 
 // Create a movie card element
 function createMovieCard(movie) {
@@ -148,7 +140,6 @@ function createMovieCard(movie) {
   return card;
 }
 
-
 // Show movie info in modal
 function showMovieDetails(movie) {
   const details = document.getElementById('movie-details');
@@ -175,10 +166,9 @@ function showMovieDetails(movie) {
   modalInstance.show();
 }
 
-
 // Add movie to watchlist if not already there
 function addToWatchlist(movie) {
-  movie.id = Number(movie.id);
+  movie.id = Number(movie.id); // Ensure numeric ID
   fetch(watchlistUrl)
     .then(res => res.json())
     .then(list => {
@@ -190,12 +180,10 @@ function addToWatchlist(movie) {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(movie)
-        }).then(loadWatchlist);
+        }).then(() => loadWatchlist());
       }
     });
 }
-
-
 // Load watchlist and show on page
 function loadWatchlist() {
   fetch(watchlistUrl)
@@ -237,7 +225,6 @@ function loadWatchlist() {
       });
     });
 }
-
 
 // Remove movie from watchlist
 function deleteFromWatchlist(id) {

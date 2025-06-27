@@ -44,7 +44,6 @@
         "thetvdb": 268592,
         "imdb": "tt2661044"
       },
-
       "image": {
         "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/477/1194981.jpg",
         "original": "https://static.tvmaze.com/uploads/images/original_untouched/477/1194981.jpg"
@@ -61,7 +60,6 @@
         }
       }
     },
-    
     {
       "id": "210",
       "url": "https://www.tvmaze.com/shows/210/doctor-who",
