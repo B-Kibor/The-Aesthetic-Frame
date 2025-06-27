@@ -29,15 +29,15 @@ json-server --watch db.json
 3.Open index.html in your browser or deploy it with GitHub Pages.
 
 ## Technologies Used
-HTML5 & CSS3
+1.HTML5 & CSS3
 
-Bootstrap 5
+2.Bootstrap 5
 
-JavaScript 
+3.JavaScript 
 
-TVMaze Public API
+4.TVMaze Public API
 
-JSON Server for Watchlist (local backend)
+5.JSON Server for Watchlist (local backend)
 
 ## Author
 
