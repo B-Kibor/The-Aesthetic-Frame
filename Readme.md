@@ -4,13 +4,13 @@ Welcome to **The Aesthetic Frame**, a sleek and modern movie discovery app built
 
 ## Features
 
-- **Search** for any TV show by name
-- Filter by **genre**
-- Explore **Trending**, **Popular**, and **Latest** shows
-- Add shows to your **Watchlist**
-- Toggle between **Light Mode** and **Dark Mode**
-- View **detailed descriptions**, **release year**, and **images** in a modal
-- Single Page Application (SPA) experience — no reloads
+1.**Search** for any TV show by name
+2.Filter by **genre**
+3.Explore **Trending**, **Popular**, and **Latest** shows
+4.Add shows to your **Watchlist**
+5.Toggle between **Light Mode** and **Dark Mode**
+6.View **detailed descriptions**, **release year**, and **images** in a modal
+7.Single Page Application (SPA) experience — no reloads
 
 ---
 
@@ -23,7 +23,6 @@ Welcome to **The Aesthetic Frame**, a sleek and modern movie discovery app built
    cd the-aesthetic-frame
 
 2.Install and start the JSON Server:
-
 npm install -g json-server
 json-server --watch db.json
 
