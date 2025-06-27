@@ -112,8 +112,6 @@ function renderSection(title, movies, container) {
   container.appendChild(section);
 }
 
-
-
 // Create a movie card element
 function createMovieCard(movie) {
   const card = document.createElement('div');

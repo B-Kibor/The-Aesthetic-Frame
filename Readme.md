@@ -2,13 +2,6 @@
 
 Welcome to **The Aesthetic Frame**, a sleek and modern movie discovery app built with HTML, CSS (Bootstrap), and JavaScript. This app allows users to browse, search, and save TV shows from the [TVMaze API](https://api.tvmaze.com/).
 
-## Author
-
-**Beatrice Kibor**  
-Phase 1 Project – Software Engineering Program
-
----
-
 ## Features
 
 - **Search** for any TV show by name
@@ -46,6 +39,13 @@ JavaScript
 TVMaze Public API
 
 JSON Server for Watchlist (local backend)
+
+## Author
+
+**Beatrice Kibor**  
+Phase 1 Project – Software Engineering Program
+
+---
 
 ## License
 This project is licensed under the MIT License.
