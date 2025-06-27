@@ -148,6 +148,7 @@ function createMovieCard(movie) {
   return card;
 }
 
+
 // Show movie info in modal
 function showMovieDetails(movie) {
   const details = document.getElementById('movie-details');
@@ -174,6 +175,7 @@ function showMovieDetails(movie) {
   modalInstance.show();
 }
 
+
 // Add movie to watchlist if not already there
 function addToWatchlist(movie) {
   movie.id = Number(movie.id);
@@ -192,6 +194,7 @@ function addToWatchlist(movie) {
       }
     });
 }
+
 
 // Load watchlist and show on page
 function loadWatchlist() {
@@ -234,6 +237,7 @@ function loadWatchlist() {
       });
     });
 }
+
 
 // Remove movie from watchlist
 function deleteFromWatchlist(id) {
