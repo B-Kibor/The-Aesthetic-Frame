@@ -1,0 +1,209 @@
+/* Main page background and font */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#search, #genre-filter {
+  padding: 0.5rem;
+}
+main {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+/* Movie Card Styles */
+.movie-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+aside {
+  flex: 1;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+/* Movie list container */
+#watchlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* Watchlist section styles */
+#watchlist li {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px 24px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  min-width: 180px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+#watchlist li {
+  justify-content: space-between;
+}
+
+#watchlist li button {
+  margin-left: auto;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+#watchlist li button:hover {
+  background: #333;
+}
+/* Navigation styles */
+nav {
+  background: #222;
+  color: #fff;
+  padding: 0.5em 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-links li a:hover {
+  color: #0a0a0c;
+}
+/* Genre styles */
+.genre-heading {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 0%);
+}
+/* Dark-mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-color: #333;
+}
+
+.dark-mode .modal-content {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.dark-mode .btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.dark-mode .genre-heading {
+  border-color: #fff;
+  color: #ffffff;
+}
+
+.dark-mode #watchlist-section {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1rem;
+  border-radius: 8px;
+}
+/* Landing Section */
+.landing {
+  background-image: url('https://images.unsplash.com/photo-1637074086158-9eb470d5fac9?auto=format&fit=crop&w=1920&q=80'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+}
+.landing h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.landing p {
+  font-size: 1.2em;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+.navbar-title {
+  color: #fff;
+  margin: 20px;
+  font-weight: lighter;
+  display: flex;
+}
+/* Logo text style */
+.logo {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+/* Footer styles */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0 12px 0;
+  margin-top: 40px;
+  font-size: 1em;
+}
