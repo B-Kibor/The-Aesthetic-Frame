@@ -168,7 +168,7 @@ function showMovieDetails(movie) {
 
 // Add movie to watchlist if not already there
 function addToWatchlist(movie) {
-  movie.id = Number(movie.id); // Ensure numeric ID
+  movie.id = Number(movie.id); 
   fetch(watchlistUrl)
     .then(res => res.json())
     .then(list => {
