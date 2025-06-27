@@ -10,7 +10,7 @@ Welcome to **The Aesthetic Frame**, a sleek and modern movie discovery app built
 
 3. Filter – Filter movies based on selected genre
 
-4.Trending & Popular Sections – Highlighted selections based on release date and movie details
+4.Trending & Popular Sections – Highlighted selections based on release date 
 
 5. Movie Details Modal – View more information about a movie in a Bootstrap modal
 
@@ -43,6 +43,11 @@ json-server --watch db.json
 4.TVMaze API
 
 5.json-server for mock backend
+
+## Contact
+For questions or feedback, email:
+contact@aestheticframe.com
+
 ## Author
 
 **Beatrice Kibor**  
