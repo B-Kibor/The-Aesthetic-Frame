@@ -12,7 +12,6 @@ Welcome to **The Aesthetic Frame**, a sleek and modern movie discovery app built
 6.View **detailed descriptions**, **release year**, and **images** in a modal
 7.Single Page Application (SPA) experience — no reloads
 
----
 
 ## Project Setup Instructions
 
@@ -44,7 +43,6 @@ json-server --watch db.json
 **Beatrice Kibor**  
 Phase 1 Project – Software Engineering Program
 
----
 
 ## License
 This project is licensed under the MIT License.
