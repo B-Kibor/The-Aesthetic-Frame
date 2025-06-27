@@ -68,6 +68,7 @@ function setGenres(movies) {
   });
 }
 
+
 // Display movies grouped by genre or filtered
 function showMovies(movies) {
   const container = document.getElementById('movie-list');
@@ -87,6 +88,7 @@ function showMovies(movies) {
   renderSection('Trending', trending, container);
   renderSection('Popular', popular, container);
 }
+
 
 function renderSection(title, movies, container) {
   const section = document.createElement('div');
@@ -115,6 +117,7 @@ function renderSection(title, movies, container) {
 
   container.appendChild(section);
 }
+
 
 // Create a movie card element
 function createMovieCard(movie) {
