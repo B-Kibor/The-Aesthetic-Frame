@@ -4,21 +4,19 @@ Welcome to **The Aesthetic Frame**, a sleek and modern movie discovery app built
 
 ## Features
 
-Movie Discovery – Browse a wide range of movies fetched from the TVMaze API
+1.Movie Discovery – Browse a wide range of movies fetched from the TVMaze API
 
-Search – Real-time search by movie name
+2.Search – Real-time search by movie name
 
-Genre Filter – Filter movies based on selected genres
+3. Filter – Filter movies based on selected genre
 
-Trending & Popular Sections – Highlighted selections based on release date and rating
+4.Trending & Popular Sections – Highlighted selections based on release date and movie details
 
-Movie Details Modal – View more information about a movie in a Bootstrap modal
+5. Movie Details Modal – View more information about a movie in a Bootstrap modal
 
-Watchlist – Add/remove movies to a personal watchlist (stored via json-server)
+6.Watchlist – Add/remove movies to a personal watchlist (stored via json-server)
 
-Dark Mode – Toggle between light and dark themes
-
- Responsive – Mobile-friendly layout using Bootstrap
+7.Dark Mode – Toggle between light and dark themes
 
 
 ## Project Setup Instructions
